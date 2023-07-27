@@ -21,10 +21,10 @@ The `Queue` class is defined as a templated class to support different data type
 
 ## Usage
 
-To use the Queue data structure, you can include the `queue_arr.cpp` file in your C++ project and create a queue object as follows:
+To use the Queue data structure, you can include the `queue_arr.h` file in your C++ project and create a queue object as follows:
 
 ```cpp
-#include "queue_arr.cpp"
+#include "queue_arr.h"
 
 int main() {
     Queue<int, 5> queue; // Create a queue of integers with a capacity of 5
